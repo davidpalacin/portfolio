@@ -1,0 +1,43 @@
+#root {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+.subtitle {
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.descript {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 10px;
+}
+
+.descript-text {
+  align-self: center;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.descript-image {
+  width: 300px;
+  height: 300px;
+  display: grid;
+}
+
+.profile-photo {
+  width: 100%;
+  overflow: hidden;
+  height: auto;
+  align-self: center;
+  border-radius: 50px;
+}
