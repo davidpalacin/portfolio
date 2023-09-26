@@ -1,11 +1,21 @@
 #root {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 30px 0;
 }
 
-.title {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: #fff;
+  width: fit-content;
+  color: #00885f;
+  border-radius: 10px;
+  padding: 0 20px;
 }
 
 .subtitle {
@@ -23,9 +33,9 @@
 }
 
 .descript-text {
-  align-self: center;
   font-weight: bold;
   text-align: justify;
+  font-size: 1.05rem;
 }
 
 .descript-image {
@@ -34,10 +44,58 @@
   display: grid;
 }
 
+.descript-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .profile-photo {
   width: 100%;
   overflow: hidden;
   height: auto;
   align-self: center;
   border-radius: 50px;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects-title {
+  margin-bottom: 96px;
+}
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  background-color: white;
+  width: 9px;
+  height: 658px;
+  margin-right: 57px;
+  border-radius: 10px;
+}
+
+.dot {
+  border-radius: 50%;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -38px;
+  gap: 58px;
+}
+
+.project {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 3px solid black;
 }
