@@ -37,7 +37,10 @@ function App() {
             </div>
 
             <div className="project-list">
-              <div className='project'></div>
+              <div className='project'>
+                <div className="project-name">nombre proyecto</div>
+                <div className="project-image"></div>
+              </div>
               <div className='project'></div>
               <div className='project'></div>
               <div className='project'></div>
