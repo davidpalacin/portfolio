@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.css'
 
 function App() {
   const photo_path = `src/assets/CV_photo.jpg`
