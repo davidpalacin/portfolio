@@ -28,23 +28,17 @@ function App() {
         <section>
           <h1 className='projects-title'>Proyectos</h1>
           <div className="projects">
-            <div className="bar">
-              <div className="dot"></div>
-              <div className="dot"></div>
-              <div className="dot"></div>
-              <div className="dot"></div>
-              <div className="dot"></div>
-            </div>
-
-            <div className="project-list">
-              <div className='project'>
-                <div className="project-name">nombre proyecto</div>
-                <div className="project-image"></div>
+            <div className="bar-column">
+              <div className="bar">
+                <div className="dot"></div>
+                <div className="dot"></div>
+                <div className="dot"></div>
               </div>
-              <div className='project'></div>
-              <div className='project'></div>
-              <div className='project'></div>
-              <div className='project'></div>
+            </div>
+            <div className="projects-column">
+              <div className="project"></div>
+              <div className="project"></div>
+              <div className="project"></div>
             </div>
           </div>
         </section>
